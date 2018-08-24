@@ -1,0 +1,36 @@
+.browse-block_header a, .feed-block_header a {
+    transition: .15s all ease-in;
+    margin: 0 10px;
+    color: #0f181e;
+}
+
+.section.menu a:hover {
+    color: #e74800;
+}
+
+a.feed-browse-active_header {
+    font: 14px OpenSans-Semibold;
+    color: #e74800;
+}
+
+.search-mob-ico_search {
+    display: none;
+}
+
+.search-mob-ico_search:hover {
+    background: url('/images/sprite_svg1910.svg') 12% 76.7% no-repeat;
+}
+
+.wrap-controls_header {
+    border-left: 1px solid #f4f4f6
+}
+
+@media (max-width: 1024px) {
+    .search-mob-ico_search {
+        background: url('/images/sprite_svg1910.svg') 12% 71% no-repeat;
+        display: block;
+        width: 21px;
+        height: 20px;
+        cursor: pointer;
+    }
+}

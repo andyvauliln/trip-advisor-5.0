@@ -1,0 +1,53 @@
+.container_lik-lis {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-height: 96vh;
+    min-height: 10px;
+    width: 660px;
+    padding: 10px 0 20px 20px;
+    overflow: hidden;
+}
+
+.container_lik-lis ul .nav-item:not(.active) a {
+    font: 14px OpenSans-Regular;
+}
+
+.container_lik-lis .loader-blocker {
+    margin-left: -20px;
+}
+
+.close-button_lik-lis {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 7;
+}
+
+.title_lik-lis {
+    font: 14px OpenSans-SemiBold, Helvetica, Arial, sans-serif;
+    line-height: 32px;
+    float: left;
+    margin-left: 10px;
+}
+
+.has-one_lik-lis {
+    max-width: 360px;
+}
+
+.container_lik-lis .tab_wrapper div div:last-child {
+    right: 6px;
+}
+
+@media (max-width: 670px) {
+    .container_lik-lis {
+        width: 360px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .container_lik-lis {
+        width: 95vw;
+    }
+}

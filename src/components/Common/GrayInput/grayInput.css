@@ -1,0 +1,45 @@
+.container_gray-input p {
+    height: 17px;
+    margin: 0 0 3px;
+    font: 12px OpenSans-Regular;
+    color: #979b9e;
+}
+
+.container_gray-input input {
+    width: 100%;
+    height: 40px;
+    border: solid 1px #f4f4f6;
+    border-radius: 6px;
+    padding-left: 10px;
+    background-color: #fafafa;
+    font: 14px OpenSans-Light;
+    color: #0f181e;
+}
+
+.container_gray-input input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px #fafafa !important;
+}
+
+.container_gray-input input::placeholder {
+    color: #979b9e;
+}
+
+.container_gray-input label {
+    display: block;
+    height: 20px;
+    color: #d0021b;
+    margin: 0;
+    font-size: 12px;
+    width: 100%
+}
+
+.token_gray-input {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    color: #e74800;
+    top: 0;
+    right: 20px;
+    pointer-events: none;
+}

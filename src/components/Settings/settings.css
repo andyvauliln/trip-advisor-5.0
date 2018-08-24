@@ -1,0 +1,72 @@
+.container_settings {
+    margin: 40px 40px 0;
+}
+
+.body_settings {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #f4f4f6;
+    padding-bottom: 30px;
+}
+
+.block_settings {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 0 30px;
+    background: #fff;
+    max-width: 405px;
+    min-width: 300px;
+    width: 100vw;
+}
+
+.blocked-block_settings {
+    position: relative;
+}
+
+.blocked-block_settings .container_block-loader {
+    z-index: 9;
+}
+
+.header_settings {
+    padding: 25px 0;
+    border-bottom: 1px solid #f4f4f6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: -5px;
+}
+
+.header_settings > span {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0f181e;
+}
+
+.header_settings > span, .header_settings > button {
+    margin: 5px;
+}
+
+.save-btn {
+    margin: 20px;
+}
+
+@media (max-width: 450px) {
+    .container_settings {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 350px) {
+    .block_settings {
+        margin: 20px 5px;
+    }
+}

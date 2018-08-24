@@ -1,0 +1,16 @@
+.field_settings {
+    height: 70px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.field_settings > span {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #0f181e;
+}

@@ -1,0 +1,19 @@
+.con-spi_use-pro {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.website_use-pro:hover {
+    opacity: .6;
+}
+
+.balance_use-pro {
+    margin-bottom: 10px;
+    font: 22px OpenSans-Light;
+}

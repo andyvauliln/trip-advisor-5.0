@@ -1,0 +1,69 @@
+.balance-group_power-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.relative-wrapper_power-form {
+    position: relative;
+    flex-grow: 1;
+}
+
+.token-amount_power-form {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.balance_power-form {
+    color: #979b9e;
+    font: 12px OpenSans-Regular;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.token_power-form {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #0f181e;
+    font: 14px OpenSans-Regular;
+}
+
+.key-field_power-form, .input-active-key_power-form {
+    margin-top: 20px;
+}
+
+.key-field_power-form > input {
+    width: 100%;
+}
+
+.wrapper-inscription_gray-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-cancel.btn-cancel-20_power-form {
+    margin-left: 20px;
+    padding: 12px 30px;
+}
+
+@media (max-width: 483px) {
+    .btn-cancel.btn-cancel-20_power-form {
+        margin: 10px 0 10px 0;
+        width: 100%;
+    }
+    .container_choose-token, .balance-group_power-form {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .relative-wrapper_choose-token, .relative-wrapper_power-form {
+        width: 100%;
+    }
+}

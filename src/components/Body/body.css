@@ -1,0 +1,44 @@
+.container_body {
+    height: 1px;
+    position: relative;
+    overflow: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.min-height-60_body {
+    min-height: calc(100vh - 60px);
+}
+
+.min-height-120_body {
+    min-height: calc(100vh - 120px);
+}
+
+.min-height-160_body {
+    min-height: calc(100vh - 160px);
+}
+
+.scroll_body {
+    min-height: calc(100%);
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.for-space-between {
+    position: relative;
+    flex: 1;
+}
+
+.search-empty-request-error_body {
+    background: url('/images/tabsBar/lighthouse-background.png') center no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 570px) {
+    .search-empty-request-error_body {
+        background: url('/images/tabsBar/lighthouse-background.png') center bottom no-repeat;
+        background-size: 100vw;
+    }
+}
